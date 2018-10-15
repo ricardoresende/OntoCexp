@@ -1,0 +1,2931 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2018/8/crimeOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2018/8/crimeOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/admin/ontologies/2018/8/crimeOntology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Agression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aircraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alcoholic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambush"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asexuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beautiful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalWeapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bisexuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bribed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brought"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CardGame"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChemicalWeapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cigarette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Civil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ColdWeapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComeBack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Community"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Criminal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Currency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dangerous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dead"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dealers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiamondRing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiceGames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DisableFromAlarms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doped"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entertainment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Escape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Explosive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Federal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feeling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FirearmAmmunition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoodBag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FragileSecurity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GetOut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goof"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroupOfPeople"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handcuff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hang"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hearse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Helicopter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heterosexuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Home"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homicide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homosexuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanBody"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inexperienced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isolated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jewelry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kidnap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Knife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandVehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latrine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lawyer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lonely"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LongTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineGun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Man"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeansOfTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Menstruating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microphone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Militar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motorcycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neglect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NuclearWeapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Open"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Order"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoliceCar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pregnant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prison"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrisonCell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prisoner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Profession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Razor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rebellion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RespectAuthority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rifle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RigidSecutiry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rodoviário"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rope"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SellingDrugs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Signal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StaySilent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stolen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stooge"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strict"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suspicious"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toilet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tumult"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turmoil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uncontrolled"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unpleasant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Walk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Watch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weapon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Woman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worried"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cellPhone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#meansOfCommunication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sexualAct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sexualOrientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#38Caliber"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#carry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#commit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#enemyOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInformed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMany"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReceive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRelationship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#help"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isArrested"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCovert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRoute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makeAdeal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makeOperation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#makeShots"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#notHave"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#practice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#practiceProfessional"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#putOnOfter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sexualOrientation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tookOut"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#underInfluence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usedByMany"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#using"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#whoMakes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#whoTransport"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MonetaryUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TypeOfDrug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AlCapone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alcatraz"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agression"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#MeansOfTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alcoholic"/>
+        <Class IRI="#Beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambush"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asexuality"/>
+        <Class IRI="#sexualOrientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beautiful"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beverage"/>
+        <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiologicalWeapon"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bisexuality"/>
+        <Class IRI="#sexualOrientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boss"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bribed"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brought"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#LandVehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CardGame"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChemicalWeapon"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cigarette"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Civil"/>
+        <Class IRI="#Police"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clock"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ColdWeapon"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ComeBack"/>
+        <Class IRI="#Order"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Community"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Criminal"/>
+        <Class IRI="#Profession"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dangerous"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dead"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dealers"/>
+        <Class IRI="#GroupOfPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiamondRing"/>
+        <Class IRI="#Jewelry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiceGames"/>
+        <Class IRI="#Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DisableFromAlarms"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doped"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Escape"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Explosive"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fear"/>
+        <Class IRI="#Feeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Federal"/>
+        <Class IRI="#Police"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FirearmAmmunition"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoodBag"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FragileSecurity"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <Class IRI="#Entertainment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gang"/>
+        <Class IRI="#GroupOfPeople"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GetOut"/>
+        <Class IRI="#Order"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goof"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grades"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gun"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handcuff"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hang"/>
+        <Class IRI="#Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hearse"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Helicopter"/>
+        <Class IRI="#Aircraft"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heterosexuality"/>
+        <Class IRI="#sexualOrientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Home"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homicide"/>
+        <Class IRI="#Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homosexuality"/>
+        <Class IRI="#sexualOrientation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honest"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inexperienced"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injury"/>
+        <Class IRI="#Verbal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invasion"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isolated"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jewelry"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judge"/>
+        <Class IRI="#Profession"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kidnap"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Knife"/>
+        <Class IRI="#ColdWeapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandVehicle"/>
+        <Class IRI="#MeansOfTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latrine"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lawyer"/>
+        <Class IRI="#Profession"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lonely"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LongTime"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineGun"/>
+        <Class IRI="#Gun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Man"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Menstruating"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Microphone"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Militar"/>
+        <Class IRI="#Police"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motorcycle"/>
+        <Class IRI="#LandVehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neglect"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#New"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NuclearWeapon"/>
+        <Class IRI="#Weapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Open"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical"/>
+        <Class IRI="#Agression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Police"/>
+        <Class IRI="#Profession"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoliceCar"/>
+        <Class IRI="#Car"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pregnant"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prison"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrisonCell"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prisoner"/>
+        <Class IRI="#Man"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prisoner"/>
+        <Class IRI="#Woman"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Razor"/>
+        <Class IRI="#ColdWeapon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rebellion"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regal"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RespectAuthority"/>
+        <Class IRI="#Order"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rifle"/>
+        <Class IRI="#Gun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RigidSecutiry"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rodoviário"/>
+        <Class IRI="#Police"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rope"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SellingDrugs"/>
+        <Class IRI="#Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Signal"/>
+        <Class IRI="#meansOfCommunication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spank"/>
+        <Class IRI="#Physical"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StaySilent"/>
+        <Class IRI="#Order"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stolen"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stooge"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strict"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suspicious"/>
+        <Class IRI="#Feeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theft"/>
+        <Class IRI="#Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilet"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trick"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumult"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turmoil"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uncontrolled"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unpleasant"/>
+        <Class IRI="#Feeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal"/>
+        <Class IRI="#Agression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walk"/>
+        <Class IRI="#Situation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watch"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Woman"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Worried"/>
+        <Class IRI="#Feeling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cellPhone"/>
+        <Class IRI="#meansOfCommunication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sexualAct"/>
+        <Class IRI="#Sexuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sexualOrientation"/>
+        <Class IRI="#Sexuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#38Caliber"/>
+        <Class IRI="#Gun"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Brought"/>
+        <Class IRI="#Goof"/>
+        <Class IRI="#Isolated"/>
+        <Class IRI="#Menstruating"/>
+        <Class IRI="#Neglect"/>
+        <Class IRI="#New"/>
+        <Class IRI="#Open"/>
+        <Class IRI="#Pregnant"/>
+        <Class IRI="#Rebellion"/>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Stolen"/>
+        <Class IRI="#Trick"/>
+        <Class IRI="#Turmoil"/>
+        <Class IRI="#Walk"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cigarette"/>
+        <Class IRI="#Clock"/>
+        <Class IRI="#FirearmAmmunition"/>
+        <Class IRI="#FoodBag"/>
+        <Class IRI="#Grades"/>
+        <Class IRI="#Handcuff"/>
+        <Class IRI="#Jewelry"/>
+        <Class IRI="#Latrine"/>
+        <Class IRI="#Microphone"/>
+        <Class IRI="#Rope"/>
+        <Class IRI="#Toilet"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Fear"/>
+        <Class IRI="#Suspicious"/>
+        <Class IRI="#Unpleasant"/>
+        <Class IRI="#Worried"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Man"/>
+        <NamedIndividual IRI="#AlCapone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prison"/>
+        <NamedIndividual IRI="#Alcatraz"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isArrested"/>
+        <NamedIndividual IRI="#AlCapone"/>
+        <NamedIndividual IRI="#Alcatraz"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#carry"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#commit"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#enemyOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAgression"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInformed"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMany"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReceive"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRelationship"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hear"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#help"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isCovert"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRoute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#makeAdeal"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#makeOperation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#makeShots"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#notHave"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#partOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#practice"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#practiceProfessional"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#putOnOfter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sexualOrientation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#tookOut"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#underInfluence"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usedByMany"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#using"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#whoMakes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#whoTransport"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#commit"/>
+        <Class IRI="#Man"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isArrested"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#practice"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#commit"/>
+        <Class IRI="#Agression"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#commit"/>
+        <Class IRI="#Kidnap"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#commit"/>
+        <Class IRI="#Theft"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isArrested"/>
+        <Class IRI="#Prison"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#practice"/>
+        <Class IRI="#Homicide"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#practice"/>
+        <Class IRI="#Physical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#practice"/>
+        <Class IRI="#Spank"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MonetaryUnit"/>
+        <Class IRI="#Currency"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TypeOfDrug"/>
+        <Class IRI="#Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#MonetaryUnit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Person"/>
+                <Variable IRI="urn:swrl:var#m01"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Prison"/>
+                <Variable IRI="urn:swrl:var#p01"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#isArrested"/>
+                <Variable IRI="urn:swrl:var#m01"/>
+                <Variable IRI="urn:swrl:var#p01"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Criminal"/>
+                <Variable IRI="urn:swrl:var#m01"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agression</IRI>
+        <Literal xml:lang="en">Aggression is overt, often harmful, social interaction with the intention of inflicting damage or other unpleasantness upon another individual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Agression</IRI>
+        <Literal xml:lang="pt">Agressão é um ato em que um indivíduo prejudica ou lesa outro(s) de sua própria espécie intencionalmente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agression</IRI>
+        <Literal xml:lang="en">Agression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agression</IRI>
+        <Literal xml:lang="pt">Agressão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Aircraft</IRI>
+        <Literal xml:lang="pt">Aeronave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Aircraft</IRI>
+        <Literal xml:lang="en">Aircraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alcoholic</IRI>
+        <Literal xml:lang="en">Alcoholic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Alcoholic</IRI>
+        <Literal xml:lang="pt">Alcoólica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ambush</IRI>
+        <Literal xml:lang="en">Ambush</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ambush</IRI>
+        <Literal xml:lang="pt">Emboscada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Asexuality</IRI>
+        <Literal xml:lang="en">Asexuality is the lack of sexual attraction to others, or low or absent interest in or desire for sexual activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Asexuality</IRI>
+        <Literal xml:lang="pt">Assexualidade é a falta de atração sexual a qualquer pessoa, ou pequeno ou inexistente interesse nas atividades sexuais humanas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asexuality</IRI>
+        <Literal xml:lang="en">Asexuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asexuality</IRI>
+        <Literal xml:lang="pt">Assexualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beautiful</IRI>
+        <Literal xml:lang="en">Beautiful</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beautiful</IRI>
+        <Literal xml:lang="pt">Bonita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beverage</IRI>
+        <Literal xml:lang="pt">Bebida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Beverage</IRI>
+        <Literal xml:lang="en">Beverage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BiologicalWeapon</IRI>
+        <Literal xml:lang="pt">Armas biológicas são agentes vivos patogênicos (vírus, fungos, bactérias, etc) que são utilizados para atingir e contaminar um grande número de pessoas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BiologicalWeapon</IRI>
+        <Literal xml:lang="en">Bioweapon, biological weapon, bioarm (any weapon usable in biological warfare).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BiologicalWeapon</IRI>
+        <Literal xml:lang="pt">Arma Biológica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BiologicalWeapon</IRI>
+        <Literal xml:lang="en">Biological Weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bisexuality</IRI>
+        <Literal xml:lang="pt">A bissexualidade é atração sexual por mais de um Sexo binário.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bisexuality</IRI>
+        <Literal xml:lang="en">Bisexuality is romantic attraction, sexual attraction, or sexual behavior toward both males and females.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bisexuality</IRI>
+        <Literal xml:lang="en">Bisexuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bisexuality</IRI>
+        <Literal xml:lang="pt">Bissexualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Boss</IRI>
+        <Literal xml:lang="en">Boss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Boss</IRI>
+        <Literal xml:lang="pt">Chefe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bribed</IRI>
+        <Literal xml:lang="en">Bribed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Bribed</IRI>
+        <Literal xml:lang="pt">Subornado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Brought</IRI>
+        <Literal xml:lang="en">Brought</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Brought</IRI>
+        <Literal xml:lang="pt">Traída</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Car</IRI>
+        <Literal xml:lang="pt">Automóvel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Car</IRI>
+        <Literal xml:lang="en">Car</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CardGame</IRI>
+        <Literal xml:lang="en">Card Game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CardGame</IRI>
+        <Literal xml:lang="pt">Jogo de Cartas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChemicalWeapon</IRI>
+        <Literal xml:lang="pt">Armas químicas são baseadas na toxicidade de substâncias químicas, capazes de matar ou causar danos a pessoas e ao meio ambiente - tais como o gás mostarda, o cloro, o ácido cianídrico, o gás sarin, o agente laranja ou o Napalm.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ChemicalWeapon</IRI>
+        <Literal xml:lang="en">Chemical weapon (chemical substances that can be delivered using munitions and dispersal devices to cause death or severe harm to people and animals and plants).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChemicalWeapon</IRI>
+        <Literal xml:lang="pt">Arma Química</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ChemicalWeapon</IRI>
+        <Literal xml:lang="en">Chemical Weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cigarette</IRI>
+        <Literal xml:lang="en">Cigarette</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cigarette</IRI>
+        <Literal xml:lang="pt">Cigarro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Civil</IRI>
+        <Literal xml:lang="pt">Polícias Civis são instituições históricas, tipicamente brasileiras, que exercem funções de polícia judiciária, nas unidades federativas do Brasil, cuja função é, de acordo com o artigo 144 da Constituição Federal de 1988, o exercício da segurança pública.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Civil</IRI>
+        <Literal xml:lang="pt">Policial Civil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clock</IRI>
+        <Literal xml:lang="en">Clock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clock</IRI>
+        <Literal xml:lang="pt">Relógio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ColdWeapon</IRI>
+        <Literal xml:lang="en">A weapon that does not use fire or explosives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ColdWeapon</IRI>
+        <Literal xml:lang="pt">Designa-se arma branca um objeto que possa ser utilizado agressivamente, para defesa ou ataque, mas cuja utilização normal é outra, geralmente para trabalho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColdWeapon</IRI>
+        <Literal xml:lang="pt">Arma Branca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ColdWeapon</IRI>
+        <Literal xml:lang="en">Cold Weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComeBack</IRI>
+        <Literal xml:lang="en">Come Back</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ComeBack</IRI>
+        <Literal xml:lang="pt">Voltar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Community</IRI>
+        <Literal xml:lang="en">Community</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Community</IRI>
+        <Literal xml:lang="pt">Comunidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crime</IRI>
+        <Literal xml:lang="pt">Crime ou delito é a violação de uma norma penal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Crime</IRI>
+        <Literal xml:lang="en">Crime, criminal offense, criminal offence, law-breaking ((criminal law) an act punishable by law; usually considered an evil act).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Crime</IRI>
+        <Literal xml:lang="en">Crime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Crime</IRI>
+        <Literal xml:lang="pt">Crime</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Criminal</IRI>
+        <Literal xml:lang="pt">Alguém que tenha cometido um crime ou que tenha sido legalmente condenado por um crime.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Criminal</IRI>
+        <Literal xml:lang="en">Criminal, felon, crook, outlaw, malefactor (someone who has committed a crime or has been legally convicted of a crime)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Criminal</IRI>
+        <Literal xml:lang="en">Criminal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Criminal</IRI>
+        <Literal xml:lang="pt">Criminoso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Currency</IRI>
+        <Literal xml:lang="en">Cash, hard cash, hard currency (money in the form of bills or coins)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Currency</IRI>
+        <Literal xml:lang="pt">Dinheiro é o meio usado na troca de bens, na forma de moedas ou notas (cédulas), usado na compra de bens, serviços, força de trabalho, divisas estrangeiras ou nas demais transações financeiras, emitido e controlado pelo governo de cada país, que é o único que tem essa atribuição.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Currency</IRI>
+        <Literal xml:lang="en">Currency</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Currency</IRI>
+        <Literal xml:lang="pt">Dinheiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dangerous</IRI>
+        <Literal xml:lang="en">Dangerous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dangerous</IRI>
+        <Literal xml:lang="pt">Perigoso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dead</IRI>
+        <Literal xml:lang="en">Dead</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dead</IRI>
+        <Literal xml:lang="pt">Morto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dealers</IRI>
+        <Literal xml:lang="en">Dealers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dealers</IRI>
+        <Literal xml:lang="pt">Traficantes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiamondRing</IRI>
+        <Literal xml:lang="pt">Anel de Diamante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiamondRing</IRI>
+        <Literal xml:lang="en">Diamond Ring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiceGames</IRI>
+        <Literal xml:lang="en">Dice Games</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiceGames</IRI>
+        <Literal xml:lang="pt">Jogo de Dados</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DisableFromAlarms</IRI>
+        <Literal xml:lang="pt">Desativador de Alarmes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DisableFromAlarms</IRI>
+        <Literal xml:lang="en">Disable From Alarms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Doped</IRI>
+        <Literal xml:lang="en">Doped</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Doped</IRI>
+        <Literal xml:lang="pt">Sob efeito de drogas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drug</IRI>
+        <Literal xml:lang="pt">Droga (uma substância que é utilizada como um medicamento ou narcótico))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Drug</IRI>
+        <Literal xml:lang="en">Drug (a substance that is used as a medicine or narcotic)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Drug</IRI>
+        <Literal xml:lang="pt">Droga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Drug</IRI>
+        <Literal xml:lang="en">Drug</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entertainment</IRI>
+        <Literal xml:lang="en">Entertainment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Entertainment</IRI>
+        <Literal xml:lang="pt">Entretenimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Escape</IRI>
+        <Literal xml:lang="en">Escape</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Escape</IRI>
+        <Literal xml:lang="pt">Fuga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Explosive</IRI>
+        <Literal xml:lang="en">Explosive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Explosive</IRI>
+        <Literal xml:lang="pt">Explosivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fear</IRI>
+        <Literal xml:lang="en">Fear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fear</IRI>
+        <Literal xml:lang="pt">Medo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feature</IRI>
+        <Literal xml:lang="pt">Característica</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feature</IRI>
+        <Literal xml:lang="en">Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feeling</IRI>
+        <Literal xml:lang="en">Feeling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feeling</IRI>
+        <Literal xml:lang="pt">Sentimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FirearmAmmunition</IRI>
+        <Literal xml:lang="en">Firearm ammunition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FirearmAmmunition</IRI>
+        <Literal xml:lang="pt">Munição para arma de fogo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="pt">Alimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Food</IRI>
+        <Literal xml:lang="en">Food</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FoodBag</IRI>
+        <Literal xml:lang="pt">Bolsa de Alimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FoodBag</IRI>
+        <Literal xml:lang="en">Food Bag</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FragileSecurity</IRI>
+        <Literal xml:lang="en">Fragile Security</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FragileSecurity</IRI>
+        <Literal xml:lang="pt">Segurança Frágil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Game</IRI>
+        <Literal xml:lang="en">Game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Game</IRI>
+        <Literal xml:lang="pt">Jogo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gang</IRI>
+        <Literal xml:lang="en">Gang, pack, ring, mob (an association of criminals).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gang</IRI>
+        <Literal xml:lang="pt">Gangues são grupos formados por criminosos e malfeitores, que se reúnem com o propósito de concretizar atos que fogem a lei.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gang</IRI>
+        <Literal xml:lang="en">Gang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gang</IRI>
+        <Literal xml:lang="pt">Gangue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GetOut</IRI>
+        <Literal xml:lang="en">Get out</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GetOut</IRI>
+        <Literal xml:lang="pt">Sair</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Goof</IRI>
+        <Literal xml:lang="pt">Bobiar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Goof</IRI>
+        <Literal xml:lang="en">Goof</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Grades</IRI>
+        <Literal xml:lang="en">Grades</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Grades</IRI>
+        <Literal xml:lang="pt">Notas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GroupOfPeople</IRI>
+        <Literal xml:lang="en">Group, grouping (any number of entities (members) considered as a unit)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GroupOfPeople</IRI>
+        <Literal xml:lang="pt">Grupo é um conjunto de pessoas que tem ou buscam um memo objetivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GroupOfPeople</IRI>
+        <Literal xml:lang="en">Group of People</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GroupOfPeople</IRI>
+        <Literal xml:lang="pt">Grupo de Pessoas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gun</IRI>
+        <Literal xml:lang="pt">Arma de fogo é um artefato que lança um ou mais projéteis em alta velocidade através de uma ação pneumática provocada pela expansão de gases resultantes da queima de um propelente de alta velocidade.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gun</IRI>
+        <Literal xml:lang="en">Gun (a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gun</IRI>
+        <Literal xml:lang="pt">Arma de Fogo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gun</IRI>
+        <Literal xml:lang="en">Gun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Handcuff</IRI>
+        <Literal xml:lang="pt">Algema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Handcuff</IRI>
+        <Literal xml:lang="en">Handcuff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hang</IRI>
+        <Literal xml:lang="pt">Enforcar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hang</IRI>
+        <Literal xml:lang="en">Hang</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hearse</IRI>
+        <Literal xml:lang="pt">Carro Funerário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hearse</IRI>
+        <Literal xml:lang="en">Hearse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Helicopter</IRI>
+        <Literal xml:lang="en">Helicopter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Helicopter</IRI>
+        <Literal xml:lang="pt">Helicóptero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heterosexuality</IRI>
+        <Literal xml:lang="en">Heterosexuality is romantic attraction, sexual attraction or sexual behavior between persons of the opposite sex or gender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Heterosexuality</IRI>
+        <Literal xml:lang="pt">Heterossexualidade refere-se à atração sexual e/ou romântica entre indivíduos de sexo oposto mais do que com o mesmo sexo,sendo a mais comum orientação sexual nos seres humanos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Heterosexuality</IRI>
+        <Literal xml:lang="en">Heterosexuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Heterosexuality</IRI>
+        <Literal xml:lang="pt">Heterossexualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Home</IRI>
+        <Literal xml:lang="en">Home</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Home</IRI>
+        <Literal xml:lang="pt">Moradia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homicide</IRI>
+        <Literal xml:lang="en">Homicide (the killing of a human being by another human being).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homicide</IRI>
+        <Literal xml:lang="pt">Homicídio (Ato de encerrar uma vida).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Homicide</IRI>
+        <Literal xml:lang="en">Homicide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Homicide</IRI>
+        <Literal xml:lang="pt">Homicídio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homosexuality</IRI>
+        <Literal xml:lang="en">Homosexuality is romantic attraction, sexual attraction or sexual behavior between members of the same sex or gender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homosexuality</IRI>
+        <Literal xml:lang="pt">Homossexualidade refere-se à característica, condição ou qualidade de um ser (humano ou não) que sente atração física, estética e ou emocional por outro ser do mesmo sexo ou gênero.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Homosexuality</IRI>
+        <Literal xml:lang="en">Homosexuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Homosexuality</IRI>
+        <Literal xml:lang="pt">Homossexualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Honest</IRI>
+        <Literal xml:lang="en">Honest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Honest</IRI>
+        <Literal xml:lang="pt">Honesto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HumanBody</IRI>
+        <Literal xml:lang="en">Members or organs of the human body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HumanBody</IRI>
+        <Literal xml:lang="pt">Membros ou orgãos do corpo humano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HumanBody</IRI>
+        <Literal xml:lang="pt">Corpo Humano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HumanBody</IRI>
+        <Literal xml:lang="en">Human Body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Inexperienced</IRI>
+        <Literal xml:lang="en">Inexperienced</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Inexperienced</IRI>
+        <Literal xml:lang="pt">Inexperiente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Injury</IRI>
+        <Literal xml:lang="en">Injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Injury</IRI>
+        <Literal xml:lang="pt">Injúria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Invasion</IRI>
+        <Literal xml:lang="en">Invasion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Invasion</IRI>
+        <Literal xml:lang="pt">Invasão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Isolated</IRI>
+        <Literal xml:lang="pt">Isolado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Isolated</IRI>
+        <Literal xml:lang="en">Isolated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Jewelry</IRI>
+        <Literal xml:lang="en">Jewelry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Jewelry</IRI>
+        <Literal xml:lang="pt">Joia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Judge</IRI>
+        <Literal xml:lang="en">Judge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Judge</IRI>
+        <Literal xml:lang="pt">Juiz</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kidnap</IRI>
+        <Literal xml:lang="pt">Ato de privar ilicitamente uma pessoa de sua liberdade, mantendo-a em local do qual ela não possa livremente sair.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kidnap</IRI>
+        <Literal xml:lang="en">Kidnap, nobble, abduct, snatch (take away to an undisclosed location against their will and usually in order to extract a ransom).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kidnap</IRI>
+        <Literal xml:lang="en">Kidnap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Kidnap</IRI>
+        <Literal xml:lang="pt">Sequestro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Knife</IRI>
+        <Literal xml:lang="pt">Ferramenta de borda utilizado como um instrumento de corte; tem uma lâmina pontiaguda com uma ponta afiada e uma alça.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Knife</IRI>
+        <Literal xml:lang="en">Knife (edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Knife</IRI>
+        <Literal xml:lang="pt">Faca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Knife</IRI>
+        <Literal xml:lang="en">Knife</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LandVehicle</IRI>
+        <Literal xml:lang="en">Land Vehicle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LandVehicle</IRI>
+        <Literal xml:lang="pt">Veículo Terrestre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Latrine</IRI>
+        <Literal xml:lang="pt">Latrina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Latrine</IRI>
+        <Literal xml:lang="en">Latrine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lawyer</IRI>
+        <Literal xml:lang="pt">Advogado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lawyer</IRI>
+        <Literal xml:lang="en">Lawyer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lonely</IRI>
+        <Literal xml:lang="en">Lonely</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lonely</IRI>
+        <Literal xml:lang="pt">Solitária</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LongTime</IRI>
+        <Literal xml:lang="en">Long Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LongTime</IRI>
+        <Literal xml:lang="pt">Muito Tempo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MachineGun</IRI>
+        <Literal xml:lang="en">Machine gun (a rapidly firing automatic gun (often mounted)).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MachineGun</IRI>
+        <Literal xml:lang="pt">Metralhadora é uma arma de fogo automática projetada para disparar tiros sucessivos rapidamente a partir de um cinto de munição, que são vários cartuchos presos entre si, ou de um carregador.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MachineGun</IRI>
+        <Literal xml:lang="en">Machine Gun</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MachineGun</IRI>
+        <Literal xml:lang="pt">Metralhadora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Man</IRI>
+        <Literal xml:lang="en">Man, adult male (an adult person who is male (as opposed to a woman))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Man</IRI>
+        <Literal xml:lang="pt">Pessoa do sexo masculino.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Man</IRI>
+        <Literal xml:lang="pt">Homem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Man</IRI>
+        <Literal xml:lang="en">Man</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeansOfTransport</IRI>
+        <Literal xml:lang="en">Means of Transport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MeansOfTransport</IRI>
+        <Literal xml:lang="pt">Meios de Transporte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Menstruating</IRI>
+        <Literal xml:lang="pt">Menstruada</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Menstruating</IRI>
+        <Literal xml:lang="en">Menstruating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Microphone</IRI>
+        <Literal xml:lang="pt">Microfone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Microphone</IRI>
+        <Literal xml:lang="en">Microphone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MonetaryUnit</IRI>
+        <Literal xml:lang="en">A standard unit of value of a country&apos;s coinage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MonetaryUnit</IRI>
+        <Literal xml:lang="pt">Unidade padrão de moeda de um país.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MonetaryUnit</IRI>
+        <Literal xml:lang="en">Monetary Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MonetaryUnit</IRI>
+        <Literal xml:lang="pt">Unidade Monetária</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motorcycle</IRI>
+        <Literal xml:lang="pt">Motocicleta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Motorcycle</IRI>
+        <Literal xml:lang="en">Motorcycle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Neglect</IRI>
+        <Literal xml:lang="pt">Descuidar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Neglect</IRI>
+        <Literal xml:lang="en">Neglect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#New</IRI>
+        <Literal xml:lang="en">New</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#New</IRI>
+        <Literal xml:lang="pt">Novo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NuclearWeapon</IRI>
+        <Literal xml:lang="pt">Dispositivo explosivo que deriva sua força destrutiva das reações nucleares, tanto de fissão ou de uma combinação de fissão e fusão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NuclearWeapon</IRI>
+        <Literal xml:lang="en">Nuclear weapon, atomic weapon (a weapon of mass destruction whose explosive power derives from a nuclear reaction).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NuclearWeapon</IRI>
+        <Literal xml:lang="pt">Arma Nuclear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NuclearWeapon</IRI>
+        <Literal xml:lang="en">Nuclear Weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="en">Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Object</IRI>
+        <Literal xml:lang="pt">Objeto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Open</IRI>
+        <Literal xml:lang="pt">Aberto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Open</IRI>
+        <Literal xml:lang="en">Open</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operation</IRI>
+        <Literal xml:lang="en">Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Operation</IRI>
+        <Literal xml:lang="pt">Operação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Order</IRI>
+        <Literal xml:lang="pt">Ordem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Order</IRI>
+        <Literal xml:lang="en">Order</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Person, individual, someone, somebody, mortal, soul (a human being)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="pt">Ser humano, ser pessoa, gente ou homem, é a única espécie animal ainda viva de primata bípede do género Homo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="en">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Person</IRI>
+        <Literal xml:lang="pt">Pessoa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Physical</IRI>
+        <Literal xml:lang="pt">A agressão física é uma forma de violência e pode ser definida como a ofensa física, que pode até resultar em lesão a integridade física de outrem, que é um bem jurídico tutelado constitucionalmente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Physical</IRI>
+        <Literal xml:lang="en">Physical aggression is behavior causing or threatening physical harm towards others. It includes hitting, kicking, biting, using weapons, and breaking toys or other possessions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical</IRI>
+        <Literal xml:lang="pt">Física</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical</IRI>
+        <Literal xml:lang="en">Physical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Place</IRI>
+        <Literal xml:lang="en">A point located with respect to surface features of some region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Place</IRI>
+        <Literal xml:lang="pt">Um ponto ou um ponto no espaço.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Place</IRI>
+        <Literal xml:lang="pt">Lugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Place</IRI>
+        <Literal xml:lang="en">Place</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Police</IRI>
+        <Literal xml:lang="en">Police, police force, constabulary, law (the force of policemen and officers)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Police</IRI>
+        <Literal xml:lang="pt">Um membro de uma força policial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Police</IRI>
+        <Literal xml:lang="en">Police</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Police</IRI>
+        <Literal xml:lang="pt">Polícial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PoliceCar</IRI>
+        <Literal xml:lang="en">Police Car</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PoliceCar</IRI>
+        <Literal xml:lang="pt">Viatura</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pregnant</IRI>
+        <Literal xml:lang="pt">Grávida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pregnant</IRI>
+        <Literal xml:lang="en">Pregnant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prison</IRI>
+        <Literal xml:lang="en">Prison, prison house (a correctional institution where persons are confined while on trial or for punishment)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prison</IRI>
+        <Literal xml:lang="pt">Uma instituição correcional, onde pessoas estão confinadas enquanto em julgamento ou castigo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prison</IRI>
+        <Literal xml:lang="en">Prison</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prison</IRI>
+        <Literal xml:lang="pt">Prisão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrisonCell</IRI>
+        <Literal xml:lang="pt">Cela</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrisonCell</IRI>
+        <Literal xml:lang="en">Prison Cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prisoner</IRI>
+        <Literal xml:lang="pt">Detento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prisoner</IRI>
+        <Literal xml:lang="en">Prisoner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Profession</IRI>
+        <Literal xml:lang="en">Profession (an occupation requiring special education (especially in the liberal arts or sciences))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Profession</IRI>
+        <Literal xml:lang="pt">Uma ocupação que exige educação especial (especialmente nas letras ou das ciências).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Profession</IRI>
+        <Literal xml:lang="en">Profission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Profession</IRI>
+        <Literal xml:lang="pt">Profissão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Razor</IRI>
+        <Literal xml:lang="pt">Navalha é um instrumento de corte usado para barbear e cortar o cabelo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Razor</IRI>
+        <Literal xml:lang="en">Razor (edge tool used in shaving).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Razor</IRI>
+        <Literal xml:lang="pt">Navalha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Razor</IRI>
+        <Literal xml:lang="en">Razor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rebellion</IRI>
+        <Literal xml:lang="en">Rebelion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rebellion</IRI>
+        <Literal xml:lang="pt">Rebelião</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regal</IRI>
+        <Literal xml:lang="en">Regal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regal</IRI>
+        <Literal xml:lang="pt">Regalias</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RespectAuthority</IRI>
+        <Literal xml:lang="en">Respect Authority</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RespectAuthority</IRI>
+        <Literal xml:lang="pt">Respeitar autoridade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rifle</IRI>
+        <Literal xml:lang="pt">Fuzil é a designação usada para armas de fogo portáteis, de cano longo (maior que 48 cm). Podem ser de repetição, semi-automáticos ou totalmente automáticos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rifle</IRI>
+        <Literal xml:lang="en">Rifle (a shoulder firearm with a long barrel and a rifled bore).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rifle</IRI>
+        <Literal xml:lang="pt">Fuzil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rifle</IRI>
+        <Literal xml:lang="en">Rifle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RigidSecutiry</IRI>
+        <Literal xml:lang="en">Rigid Security</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RigidSecutiry</IRI>
+        <Literal xml:lang="pt">Segurança Rígida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rope</IRI>
+        <Literal xml:lang="pt">Corda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rope</IRI>
+        <Literal xml:lang="en">Rope</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SellingDrugs</IRI>
+        <Literal xml:lang="en">Selling Drugs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SellingDrugs</IRI>
+        <Literal xml:lang="pt">Venda de Drogas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sexuality</IRI>
+        <Literal xml:lang="pt">Sexualidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sexuality</IRI>
+        <Literal xml:lang="en">Sexuality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Signal</IRI>
+        <Literal xml:lang="en">Signal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Signal</IRI>
+        <Literal xml:lang="pt">Sinal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="en">Situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal xml:lang="pt">Situação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Spank</IRI>
+        <Literal xml:lang="pt">Espancamento é uma forma de violência física, normalmente utilizado quando a diferença de força entre os dois confrontantes é grande ou quando o espancado não pode se defender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Spank</IRI>
+        <Literal xml:lang="en">Spanking is a common form of corporal punishment involving the act of striking the buttocks of another person to cause physical pain, generally with an open hand. More severe forms of spanking, such as switching, paddling, belting, caning, whipping, and birching, involve the use of an object instead of a hand.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spank</IRI>
+        <Literal xml:lang="pt">Espancamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Spank</IRI>
+        <Literal xml:lang="en">Spank</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StaySilent</IRI>
+        <Literal xml:lang="pt">Ficar quieto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StaySilent</IRI>
+        <Literal xml:lang="en">Stay Quiet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stolen</IRI>
+        <Literal xml:lang="pt">Roubado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stolen</IRI>
+        <Literal xml:lang="en">Stolen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stooge</IRI>
+        <Literal xml:lang="pt">Laranja</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stooge</IRI>
+        <Literal xml:lang="en">Stooge</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Strict</IRI>
+        <Literal xml:lang="pt">Rigoroso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Strict</IRI>
+        <Literal xml:lang="en">Strict</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Suspicious</IRI>
+        <Literal xml:lang="pt">Desconfiado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Suspicious</IRI>
+        <Literal xml:lang="en">Suspicious</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Theft</IRI>
+        <Literal xml:lang="pt">Crime que consiste na apropriação indevida de um bem móvel alheio, mediante uso de violência ou ameaça grave da vítima por parte do criminoso.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Theft</IRI>
+        <Literal xml:lang="en">Larceny, theft, thievery, thieving, stealing (the act of taking something from someone unlawfully).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Theft</IRI>
+        <Literal xml:lang="pt">Roubar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Theft</IRI>
+        <Literal xml:lang="en">Theft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Toilet</IRI>
+        <Literal xml:lang="en">Toilet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Toilet</IRI>
+        <Literal xml:lang="pt">Vaso Sanitário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Trick</IRI>
+        <Literal xml:lang="pt">Enganar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Trick</IRI>
+        <Literal xml:lang="en">Trick</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tumult</IRI>
+        <Literal xml:lang="en">Tumult</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tumult</IRI>
+        <Literal xml:lang="pt">Tumulto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Turmoil</IRI>
+        <Literal xml:lang="pt">Tumulto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Turmoil</IRI>
+        <Literal xml:lang="en">Turmoil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TypeOfDrug</IRI>
+        <Literal xml:lang="pt">Tipo da droga</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TypeOfDrug</IRI>
+        <Literal xml:lang="en">Type of Drug</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Uncontrolled</IRI>
+        <Literal xml:lang="pt">Descontrolado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Uncontrolled</IRI>
+        <Literal xml:lang="en">Uncontrolled</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unpleasant</IRI>
+        <Literal xml:lang="pt">Desagradável</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unpleasant</IRI>
+        <Literal xml:lang="en">Unpleasant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Verbal</IRI>
+        <Literal xml:lang="en">Verbal abuse (verbal attack or verbal assault) is when a person forcefully criticizes, insults, or denounces someone else. Characterized by underlying anger and hostility, it is a destructive form of communication intended to harm the self-concept of the other person and produce negative emotions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Verbal</IRI>
+        <Literal xml:lang="pt">É um comportamento agressivo, caracterizado por palavras danosas que tem a intenção de ridicularizar, humilhar, manipular e/ou ameaçar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Verbal</IRI>
+        <Literal xml:lang="en">Verbal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Verbal</IRI>
+        <Literal xml:lang="pt">Verbal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Walk</IRI>
+        <Literal xml:lang="pt">Caminhar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Walk</IRI>
+        <Literal xml:lang="en">Walk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Watch</IRI>
+        <Literal xml:lang="pt">Vigiar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Watch</IRI>
+        <Literal xml:lang="en">Watch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weapon</IRI>
+        <Literal xml:lang="pt">Qualquer instrumento ou instrumento utilizado na luta ou caça</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Weapon</IRI>
+        <Literal xml:lang="en">Weapon, arm, weapon system (any instrument or instrumentality used in fighting or hunting).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Weapon</IRI>
+        <Literal xml:lang="pt">Arma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Weapon</IRI>
+        <Literal xml:lang="en">Weapon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Woman</IRI>
+        <Literal xml:lang="pt">Pessoa do sexo feminino.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Woman</IRI>
+        <Literal xml:lang="en">Woman, adult female (an adult female person (as opposed to a man))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Woman</IRI>
+        <Literal xml:lang="pt">Mulher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Woman</IRI>
+        <Literal xml:lang="en">Woman</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Worried</IRI>
+        <Literal xml:lang="pt">Preocupado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Worried</IRI>
+        <Literal xml:lang="en">Worried</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cellPhone</IRI>
+        <Literal xml:lang="en">A mobile phone, known as a cell phone in North America, is a portable telephone that can make and receive calls over a radio frequency link while the user is moving within a telephone service area.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#cellPhone</IRI>
+        <Literal xml:lang="pt">Aparelho de comunicação por ondas eletromagnéticas que permite a transmissão bidirecional de voz e dados utilizáveis em uma área geográfica.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cellPhone</IRI>
+        <Literal xml:lang="en">Cell Phone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cellPhone</IRI>
+        <Literal xml:lang="pt">Telefone Celular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#meansOfCommunication</IRI>
+        <Literal xml:lang="pt">Instrumento ou à forma de conteúdo utilizados para a realização do processo comunicacional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#meansOfCommunication</IRI>
+        <Literal xml:lang="en">Means of communication is known as the tools and technology which facilitate for exchanging information, ideas and opinions between people and organizations of different places.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meansOfCommunication</IRI>
+        <Literal xml:lang="en">Mean of Communication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#meansOfCommunication</IRI>
+        <Literal xml:lang="pt">Meio de Comunicação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sexualAct</IRI>
+        <Literal xml:lang="pt">Ato Sexual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sexualAct</IRI>
+        <Literal xml:lang="en">Sexual Act</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sexualOrientation</IRI>
+        <Literal xml:lang="pt">A orientação sexual de uma pessoa indica por quais gêneros ela sente-se atraída, seja física, romântica e ou emocionalmente. Ela pode ser assexual, bissexual, heterossexual, homossexual ou pansexual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sexualOrientation</IRI>
+        <Literal xml:lang="en">Sexual orientation is an enduring pattern of romantic or sexual attraction (or a combination of these) to persons of the opposite sex or gender, the same sex or gender, or to both sexes or more than one gender.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sexualOrientation</IRI>
+        <Literal xml:lang="pt">Orientação Sexual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sexualOrientation</IRI>
+        <Literal xml:lang="en">Sexual Orientation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#38Caliber</IRI>
+        <Literal xml:lang="en">.38 refers to the type of firearm and firearm cartridges.
+
+The .38 is considered a large firearm cartridge; anything larger than .32 is considered a large caliber, and one of the most common handguns manufactured in the United States.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#38Caliber</IRI>
+        <Literal xml:lang="pt">Pistolas, revólveres, garruchas, carabinas, rifles e fuzis, calibre nada mais é que o diâmetro do projétil ou do cano da arma.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#38Caliber</IRI>
+        <Literal xml:lang="pt">.38</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#38Caliber</IRI>
+        <Literal xml:lang="en">38 Caliber</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+
