@@ -1,6 +1,6 @@
 # OntoCexp
 
-An Ontological model proposal for the recognition of expressions used by criminals in Brazil
+An Ontological model proposal of the recognition of expressions used by criminals in Brazil
 
 ## Introduction
 
